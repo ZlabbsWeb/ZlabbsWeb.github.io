@@ -1,0 +1,104 @@
+
+h1
+{
+	color: white;
+	font-family:verdana;
+	font-size:24px;
+	text-align: left;
+	margin-left: 5px;
+	padding-bottom: 2px;
+}
+
+h2
+{
+	color: white;
+	font-family:verdana;
+	font-size:26px;
+	text-align: left;
+	margin-left: 5px;
+	padding-bottom: 2px;
+}
+
+h3
+{
+	color: white;
+	font-family:verdana;
+	font-size:32px;
+	text-align: left;
+	margin-left: 5px;
+	padding-bottom: 2px;
+}
+
+h4
+{
+	color: white;
+	font-weight: normal;
+	font-family:verdana;
+	font-size:160px;
+	text-align: left;
+	padding-bottom: 2px;
+}
+
+p
+{
+	color: white;
+	font-family:verdana;
+	font-size:16px;
+	font-weight: normal;
+	padding-bottom: 6px;
+	margin-top: -2px;
+	text-align: left;
+}
+
+p.title
+{
+	color: white;
+	font-family:verdana;
+	font-size:16px;
+	font-weight: normal;
+	padding-top: 25px;
+	text-align: left;
+	cursor: pointer;
+}
+
+p.titlebartop_small
+{
+	color: white;
+	font-family:verdana;
+	font-size:16px;
+	font-weight: normal;
+	padding-top: 20px;
+	text-align: left;
+	cursor: pointer;
+}
+
+p.margin
+{
+	color: white;
+	font-family:verdana;
+	font-size:16px;
+	font-weight: normal;
+	margin-left: 5px;
+	padding-bottom: 6px;
+	text-align: left;
+}
+
+p.tags
+{
+	color: #d9d9d9;
+	font-family:verdana;
+	font-size:16px;
+	font-weight: bold;
+	margin-left: 5px;
+	padding-bottom: 2px;
+	text-align: left;
+}
+
+p.dropdown
+{
+	color: #aaaaaa;
+	font-style: italic;
+	margin-bottom: -2px;
+	margin-top: -2px;
+	cursor: pointer;
+}
