@@ -12,27 +12,22 @@
 <!--SECTION: background-->
 
 <img name = "background_img" src = "./images/backgrounds/i_bg_0.png" style = "position: fixed;width: 100vw; height: 100vh; top: 0px;"></img>
-<!--<script>
-function SetRandomBackground()
-{
-	var MaxBackgrounds = 4
-	var Index = GetRandomIntInRange( 0, MaxBackgrounds )
+<img name = "background_imgLogo" src = "./images/backgrounds/i_bg_logo_big.png" style = "position: fixed;width: 90vh; height: 90vh; top: 17vh; left: 60vw;"></img>
 
-SetImage("background_img", "./images/backgrounds/i_bg_" + Index.toString() + ".png" )
-}
 
-SetRandomBackground()
-</script>-->
 
 <!--SECTION: title content-->
-
-<div class="TitleBar" style="background-color: rgba(150, 50, 0, 0.7);  height: 40px; width: 100vw; position: fixed; top: 0px; margin-top:0px; margin-bottom:0px;">
+<div style="background-color: rgba(150, 50, 0, 0.7);  height: 40px; width: 100vw; position: fixed; top: 0px; margin-top:0px; margin-bottom:0px;"></div>
+<div style="background-color: rgba(255, 80, 0, 0.8);  height: 2px; width: 100vw; position: fixed; top: 40px; margin-top:0px; margin-bottom:0px;"></div>
 <h3 style = "position: fixed; top: 0px; margin-top:0px; margin-bottom:0px;">ZLABBS</h3>
-</div>
 
-<!--SECTION: post content-->
+<!--SECTION: main content-->
 
+<h4 style = "position: relative; top: -15px;">Who we are</h4>
+<h3 style = "position: relative; top: -35px;">staff:</h3>
 
+<h3 style = "position: relative; top: -35px;">What we do:</h3>
+<p style = "position: relative; top: -65px;">Zlabbs is a small games and software studio based in Stoke-On-Trent hear at Zlabbs we strive to make the good but yet small games and software that provides enjoyable experiences or solutions to your grievances.</p>
 <!--SECTION: big image viewer-->
 
 <div name = "ImageView_Big" style = "background-color: rgba(0, 0, 0, 0.4); position: fixed;width: 100vw; height: 100vh; top: 0px; left: 0px;"></div>
@@ -48,48 +43,6 @@ SetRandomBackground()
 <script>
 HideContent( "user-hidden" );
 HideContent( "ImageView_Big" );
-HideContent( "TitleBar_SizeCheck_R_small" )
-
-function SizeCheck()
-{
-	var WinWidth = window.innerWidth;
-	var WinHeight = window.innerHeight; 
-
-//for title bar 
-	var ElementTitleBarLeft = document.getElementsByName("TitleBar_SizeCheck_L")[0];
-	var ElementTitleBarRight = document.getElementsByName("TitleBar_SizeCheck_R")[0];
-
-	if(window.innerWidth <= 1560)
-	{
-		HideContent( "TitleBar_SizeCheck_R" );
-		ShowContent( "TitleBar_SizeCheck_R_small" );
-	}
-	else
-	{
-		HideContent( "TitleBar_SizeCheck_R_small" );
-
-		ShowContent( "TitleBar_SizeCheck_R" );
-		ElementTitleBarRight.style.display = "table-cell";
-	}
-
-	if(window.innerWidth <= 820)
-	{
-		HideContent( "TitleBar_SizeCheck_R_small" );
-	}
-	
-	if(window.innerWidth <= 542)
-	{
-		HideContent( "TitleBar_SizeCheck_L" );
-		HideContent( "TitleBar_SizeCheck_R_small" );
-	}
-	else
-	{
-		ShowContent( "TitleBar_SizeCheck_L" );
-	}
-
-}
-
-SizeCheck();
 </script>
 
 </body>
